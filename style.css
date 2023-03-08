@@ -20,7 +20,7 @@ body{
     font-weight: 800;
 }
 
-#movies{
+#movie{
     text-align: center;
     appearance: none;
     -moz-appearance: none; /*Gecko browser engine(Mozilla)*/
@@ -58,7 +58,8 @@ small{
     width: 15px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    background-color: rgb(100, 100, 100);
+    /* background-color: rgb(100, 100, 100); */
+    background-color: rgb(99, 30, 30);
 }
  
 /* К Каждым 2 дочерним эл-там в контейнере row*/

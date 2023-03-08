@@ -10,12 +10,12 @@
 <body>
     <!-- Выбор фильма -->
     <div id="container-movie">
-        <label>Check the movie</label>
-        <select id="movies">
-            <option value="30">Avengers 30 $</option>
-            <option value="15">Joker 15 $</option>
-            <option value="10">Toy Stories 4 10 $</option>
-            <option value="8">Nemo 8 $</option>
+        <label>Выбери фильм</label>
+        <select id="movie">
+            <option value="50">Властелин колец:Братство Кольца 50₴</option>
+            <option value="30">Джокер 30₴</option>
+            <option value="55">Первому игроку приготовиться 55₴</option>
+            <option value="35">Безумный Макс:Дорога ярости 35$</option>
         </select>
     </div>
     
@@ -23,15 +23,15 @@
     <ul class="showcase">
         <li>
             <div class="seat"></div>
-            <small>Available</small>
+            <small>Доступные</small>
         </li>
         <li>
             <div class="seat selected"></div>
-            <small>Selected</small>
+            <small>Выбранное</small>
         </li>
         <li>
             <div class="seat occupied"></div>
-            <small>Occupied</small>
+            <small>Занятые</small>
         </li>
     </ul>
 
@@ -107,7 +107,7 @@
         </div>
     </div>
 
-    <p class="text">You have selected <span id="count">0</span> seats for a price <span id="price">0</span> $</p>
+    <p class="text">Количество мест: <span id="count">0</span> общая стоимость <span id="price">0</span> ₴</p>
 <script src="script.js"></script>    
 </body>
 </html>
